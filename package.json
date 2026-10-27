@@ -1,0 +1,12 @@
+{
+  "name": "artpet-litoral",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional da Art Pet Litoral em Santos",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node --check public/app.js && node --check scripts/build.mjs",
+    "start": "node scripts/serve.mjs"
+  },
+  "engines": { "node": ">=22" }
+}
